@@ -1,8 +1,13 @@
 pipeline {
       agent any {
     stages {
-        stage {
+        stage ("git clone") {
             steps **
-        stage }
-    stages }
+        }
+        stages ("build code") {
+            steps {
+                sh **
+           }
+   }
+
 
