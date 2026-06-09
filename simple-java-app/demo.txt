@@ -4,11 +4,6 @@ pipeline {
         stage ("git clone") {
             steps **
         }
-        stages ("build code") {
-            steps {
-                sh **
-           }
-   }
-
+       
 
 
