@@ -4,4 +4,5 @@ pipeline {
     stages {
         stage {
             steps **
-               stage }
+        stage }
+    stages }
