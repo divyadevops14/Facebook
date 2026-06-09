@@ -1,2 +1,14 @@
-hello devops team
+pipeline {
+      agent any {
+    stages {
+        stage ("git clone") {
+            steps **
+        }
+        stages ("build code") {
+            steps {
+                sh **
+           }
+   }
+
+
 
