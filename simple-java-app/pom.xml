@@ -40,5 +40,20 @@
             </plugin>
         </plugins>
     </build>
+
+    <distributionManagement>
+    <repository>
+        <id>admin</id>
+        <name>admin@123</name>
+        <url>http://54.90.190.222:8081/repository/maven-releases/</url>
+    </repository>
+
+    <snapshotRepository>
+        <id>admin</id>
+        <name>admin@123</name>
+        <url>http://54.90.190.222:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
+
 
