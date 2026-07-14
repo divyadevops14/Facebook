@@ -14,7 +14,7 @@ pipeline {
         stage('Build') {
             steps {
                 dir('simple-java-app') {
-                    mavenBuild()  //calling shared library function
+                    sh 'mvn clean package'  //calling shared library function
                 }
             }
         }
