@@ -13,7 +13,9 @@ pipeline {
         }
         stage('Build') {
             steps {
-                mavenBuild()  //calling shared library function
+                dir('simple-java-app') {
+                    mavenBuild()  //calling shared library function
+                }
             }
         }
         stage('Post-Build') {
