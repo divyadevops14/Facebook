@@ -44,7 +44,7 @@
     <distributionManagement>
     <repository>
         <id>admin</id>
-        <url>http://54.90.190.222:8081/repository/maven-releases/</url>
+        <url>http://54.242.237.82:8081/repository/maven-releases/</url>
     </repository>
     </distributionManagement>
 </project>
